@@ -25,15 +25,15 @@ int main() {
     srand(time(NULL));
 
     do {
-        printf("\n\t\t\t\t\t [ SIMPLE TIC TAC TOE GAME GIAN ] \n");
+        printf("\n\t\t\t\t\t [ TIC TAC TOE ] \n");
         printf("\t\t\t Input the number corresponding to the box that you want to mark.");
 
         board(); 
 
         printf("\n\t\t\t|||||||||||||||||||||||||||||||||||||||||||||||||||||||");
         printf("\n\t\t\t\t           Start the game? ");
-        printf("\n\t\t\t\t  Singleplayer Mode:   Type \"S\"");
-        printf("\n\t\t\t\t    Two-Player Mode:   Type \"M\"");
+        printf("\n\t\t\t\t  Single Player Mode:   Type \"S\"");
+        printf("\n\t\t\t\t    Two Player Mode:   Type \"M\"");
         printf("\n\t\t\t\t               Exit:   Type \"N\"");
         printf("\n\t\t\t|||||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
         printf("\n\t\t\t\t\t      Enter: ");
